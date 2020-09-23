@@ -88,6 +88,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/ApparentlyCanadian/Megavaders/Megavaders/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Editor">
+      <HintPath>D:/ApparentlyCanadian/Megavaders/Megavaders/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/ApparentlyCanadian/Megavaders/Megavaders/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -100,15 +103,6 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/ApparentlyCanadian/Megavaders/Megavaders/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/ApparentlyCanadian/Megavaders/Megavaders/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/ApparentlyCanadian/Megavaders/Megavaders/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>D:/ApparentlyCanadian/Megavaders/Megavaders/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
       <HintPath>D:/ApparentlyCanadian/Megavaders/Megavaders/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
@@ -120,6 +114,12 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/ApparentlyCanadian/Megavaders/Megavaders/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/ApparentlyCanadian/Megavaders/Megavaders/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/ApparentlyCanadian/Megavaders/Megavaders/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>D:/ApparentlyCanadian/Megavaders/Megavaders/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>

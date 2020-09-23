@@ -41,11 +41,16 @@ public class PlayerController : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
     {
-        sliderValue = slider.value;
-        Vector3 temp = transform.position;
-        temp.x = sliderValue;
-        transform.localPosition = temp;
-
+        if (!autoMode)
+        {
+            if (gameLogicManager == null || gameLogicManager.isPlaying())
+            {
+                sliderValue = slider.value;
+                Vector3 temp = transform.position;
+                temp.x = sliderValue;
+                transform.localPosition = temp;
+            }
+        }
         fireMissile();
 
         /*if (!autoMode)
@@ -108,7 +113,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void fireMissile()
+    public void fireMissile()
     {
 
         if (missile == null)
